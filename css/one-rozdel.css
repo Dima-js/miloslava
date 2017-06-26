@@ -1,0 +1,12 @@
+.section2{
+    border-bottom: none;
+    margin-top: 20px!important;
+}
+.section1-text a:hover{
+    color: #c2c2c0;
+}
+@media (max-width: 620px) {
+    .section2 .more_product {
+        font-size: 15px;
+    }
+}

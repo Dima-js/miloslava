@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>MiloSlava</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/main.css" type="text/css" rel="stylesheet">
+    <link href="css/one_news.css" type="text/css" rel="stylesheet">
+    <link href="css/index.css" type="text/css" rel="stylesheet">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <!--<script src="js/main.js"></script>-->
+    <script src="js/jaliswall.js"></script>
+    <!--<script src="js/main.js"></script>-->
+    <script>
+        $(document).ready(function(){
+            $('.wall-item').hover(function(event){
+                event.preventDefault();
+                $(this).toggleClass('active');
+
+            });
+        });
+
+        $(document).ready(function(){
+            var $menu = $('#myPanelDefault');
+            var $m=$('#overlay');
+            $('#menu-btn-toggle').click(function(event){
+                event.preventDefault();
+                $(this).toggleClass('active');
+                $menu.toggleClass('active');
+                $m.toggleClass('active');
+            });
+        });
+    </script>
+    <script>
+        $('.wall').jaliswall({
+            item : '.wall-item',
+            // column classname
+            columnClass : '.wall-column'
+        });
+
+
+    </script>
+</head>
+<body>
+<header>
+    <div class="header">
+        <div class="wrapper">
+            <div class="wrapper__header clearfix">
+                <a href="#" class="wrapper__header-logo clearfix">
+                    <img src="img/logo.png">
+                </a>
+                <a href="#" id="menu-btn-toggle" class=""><span></span></a>
+                <div id="overlay"> </div>
+                <div id="myPanelDefault" >
+                    <div class="wrapper__header-menu style_menu" >
+                        <div class="wrapper__header-menu-top">
+                            <ul>
+                                <li>
+                                    <a href="#">валенки </a>
+                                </li>
+                                <li>
+                                    <a href="#">boho-home</a>
+                                </li>
+                                <li>
+                                    <a href="#">авторская одежда</a>
+                                </li>
+                                <li>
+                                    <a href="#">живопись</a>
+                                </li>
+                                <li>
+                                    <a href="#">аксессуары </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="wrapper__header-menu-bottom">
+                            <ul>
+                                <li>
+                                    <a href="#">магазин</a>
+                                </li>
+                                <li>
+                                    <a href="#">Журнал</a>
+                                </li>
+                                <li>
+                                    <a href="#">контакты</a>
+                                </li>
+
+                            </ul>
+                            <div class="wrapper__header-share_cart__share">
+                                <a href="#"></a>
+                                <a href="#"></a>
+                                <a href="#"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrapper__header-share_cart">
+                    <div class="wrapper__header-share_cart__share">
+                        <a href="#"></a>
+                        <a href="#"></a>
+                        <a href="#"></a>
+                    </div>
+                    <div class="wrapper__header-share_cart__cart">
+                        <a href="#">корзина</a>
+                        <a href="#"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="wrapp__content-main">
+        <div class="wrapper">
+            <div class="wrap_one_news">
+               <div class="go_to_page clearfix">
+                   <a href="#">Вернуться  в журнал</a>
+                   <a href="#">Следующая запись</a>
+               </div>
+                <div class="one_news-content">
+                    <img src="img/one_news.png">
+                    <div class="wrap-text">
+                        <h1>Интервью с увлеченным кулинаром и автором книг Анастасией Зураб</h1>
+                        <p>Автор кулинарных книг, главный редактор первого в России кулинарного онлайн-журнала Russian Foodie и фуд-фотограф Анастасия Зурабова рассказывает о том, как хобби стало профессией.</p>
+                        <p>
+                            Я увлекаюсь кулинарией очень давно — это мое любимое хобби лет с 14. И все благодаря бабушке! Никогда не забуду ее фирменные пирожки с капустой, яблочную шарлотку и суп из сушеных опят с перловкой… А самостоятельно готовить я начала по «Книге о вкусной и здоровой пище» — перепробовала почти все блюда оттуда, даже грибы мариновала. Процесс меня увлекал, но воспринимать кулинарию всерьез я начала гораздо позднее.
+                        </p>
+                        <p>
+                            Я увлекаюсь кулинарией очень давно — это мое любимое хобби лет с 14. И все благодаря бабушке! Никогда не забуду ее фирменные пирожки с капустой, яблочную шарлотку и суп из сушеных опят с перловкой… А самостоятельно готовить я начала по «Книге о вкусной и здоровой пище» — перепробовала почти все блюда оттуда, даже грибы мариновала. Процесс меня увлекал, но воспринимать кулинарию всерьез я начала гораздо позднее.
+                        </p>
+                        <p>
+                            А именно, во время получения второго высшего на факультете клинической психологии. Мне было необходимо дело, которое бы отвлекало меня от забот и помогало бороться со стрессом. И я начала печь. Неожиданно для себя обнаружила, что мое увлечение разделяет много людей. Появилась кулинарная группа, а через некоторое время профиль в Instagram, где я выкладывала снимки еды, общалась с другими блогерами, совершенствовалась в фуд-фотографии. Постепенно вокруг сформировалась компания единомышленников, которая и позволила мне основать проект Russian Foodie.
+                        </p>
+                        <p>
+                            Идея сделать кулинарный журнал возникла внезапно. Однажды мы обсуждали с подругой зарубежные электронные издания по декору и дизайну интерьеров, и она среди прочего скинула мне ссылку на один австралийский онлайн-журнал food тематики. Это первое, что побудило меня двигаться в этом направлении. Вторым «маячком» стало письмо подписчицы. Она пожаловалась, что у нас нет хороших кулинарных онлайн-журналов, а ей бы так хотелось, чтобы ее любимые фуд-блогеры были собраны под одной крышей. И я подумала: а почему бы и нет?
+                        </p>
+                        <p>
+                            Сложно поверить, но вся концепция журнала придумалась за несколько часов. У меня в голове сложился план первого номера, основные рубрики журнала, периодичность выхода и принцип сезонности. Что касается названия, оно тоже возникло мгновенно. Ведь кто такие foodie? Это люди, для которых еда — не только удовлетворение естественной потребности. Они интересуются всем, что связано с кулинарией, и эстетическая сторона играет для них не последнюю роль. А поскольку мой журнал про них и для них, то сочетание Russian Foodie подошло идеально.
+                            Сначала я написала кулинарным блогерам, с кем общалась на тот момент. Затем был пост в Instagram о том, что ищу единомышленников для создания кулинарного онлайн-проекта. Среди тех, кто откликнулся, был мой чудесный арт-директор Таня Смирнова и фуд-фотограф Алена Веселова, с которой мы вместе сняли не один сборник рецептов. Должна сказать, что мне повезло с командой. Со многими виртуальное общение переросло в дружбу, а с некоторыми мы теперь даже выпускаем книги в издательстве «ЭКСМО» — это Олеся Куприн, Настя Понедельник, Злата Панченко.
+                        </p>
+                        <p>
+                            Сначала я написала кулинарным блогерам, с кем общалась на тот момент. Затем был пост в Instagram о том, что ищу единомышленников для создания кулинарного онлайн-проекта. Среди тех, кто откликнулся, был мой чудесный арт-директор Таня Смирнова и фуд-фотограф Алена Веселова, с которой мы вместе сняли не один сборник рецептов. Должна сказать, что мне повезло с командой. Со многими виртуальное общение переросло в дружбу, а с некоторыми мы теперь даже выпускаем книги в издательстве «ЭКСМО» — это Олеся Куприн, Настя Понедельник, Злата Панченко.
+                        </p>
+                        <video width="741" height="542" controls poster='img/one_news.png'>
+                            <source src="video/1.mp4" type="video/mp4">
+                            <source src="https://www.youtube.com/embed/3BaCNkPSsYk" type="video/mp4" type="video/mp4" /> <!-- MPEG4 для браузеров Safari -->
+                            <source src="https://www.youtube.com/embed/3BaCNkPSsYk" type="video/mp4" type="video/ogg" /> <!-- Ogg Theora для Firefox -->
+                        </video>
+                        <p>Идея сделать кулинарный журнал возникла внезапно. Однажды мы обсуждали с подругой зарубежные электронные издания по декору и дизайну интерьеров, и она среди прочего скинула мне ссылку на один австралийский онлайн-журнал food тематики. Это первое, что побудило меня двигаться в этом направлении. Вторым «маячком» стало письмо подписчицы. Она пожаловалась, что у нас нет хороших кулинарных онлайн-журналов, а ей бы так хотелось, чтобы ее любимые фуд-блогеры были собраны под одной крышей. И я подумала: а почему бы и нет?</p>
+                    </div>
+                    <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/3BaCNkPSsYk" frameborder="0" allowfullscreen>-->
+
+                    <!--</iframe>-->
+
+                </div>
+                <div class="wall clearfix">
+                    <div class="wall-column">
+                        <a class="wall-item" >
+                            <img src="img/one-news-g1.png">
+                        </a>
+                        <a class="wall-item">
+                            <img src="img/one-news-g1.png">
+                        </a>
+                    </div>
+                    <div class="wall-column">
+                        <a class="wall-item">
+                            <img src="img/one-news-g2.png">
+                        </a>
+                        <a class="wall-item" >
+                            <img src="img/one-news-g1.png">
+                        </a>
+                    </div>
+                    <div class="wall-column">
+                        <a class="wall-item" >
+                            <img src="img/one-news-g3.png">
+                        </a>
+                    </div>
+
+                    <div class="wall-column">
+                        <a class="wall-item" >
+                            <img src="img/one-news-g4.png">
+                        </a>
+                        <a class="wall-item" >
+                            <img src="img/one-news-g1.png">
+                        </a>
+                    </div>
+                </div>
+                <div class="go_to_page padding clearfix">
+                    <a href="#">Вернуться  в журнал</a>
+                    <a href="#">Следующая запись</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+<footer>
+    <div class="wrapper">
+        <div class="wrapper__footer">
+            <img src="img/footer-logo.png" alt="">
+        </div>
+    </div>
+</footer>
+</body>
+</html>

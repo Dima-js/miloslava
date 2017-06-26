@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>MiloSlava | Shop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/main.css" type="text/css" rel="stylesheet">
+    <link href="css/shop.css" type="text/css" rel="stylesheet">
+    <link href="css/one-rozdel.css" type="text/css" rel="stylesheet">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <!-- Magnific Popup core JS file -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".style_menu").on("click","a", function (event) {
+                //отменяем стандартную обработку нажатия по ссылке
+                event.preventDefault();
+
+                //забираем идентификатор бока с атрибута href
+                var id  = $(this).attr('href'),
+
+                //узнаем высоту от начала страницы до блока на который ссылается якорь
+                        top = $(id).offset().top;
+
+                //анимируем переход на расстояние - top за 1500 мс
+                $('body,html').animate({scrollTop: top}, 1500);
+            });
+        });
+        $(function () {
+            $('.popup-modal').magnificPopup({
+                type: 'inline',
+                preloader: false,
+                focus: '#username',
+                modal: true
+            });
+            $(document).on('click', '.popup-modal-dismiss', function (e) {
+                e.preventDefault();
+                $.magnificPopup.close();
+            });
+        });
+    </script>
+</head>
+<body>
+<header>
+    <div class="header">
+        <div class="wrapper">
+            <div class="wrapper__header clearfix">
+                <a href="#" class="wrapper__header-logo clearfix">
+                    <img src="img/logo.png">
+                </a>
+                <a href="#" id="menu-btn-toggle" class=""><span></span></a>
+                <div id="overlay"> </div>
+                <div id="myPanelDefault" >
+                    <div class="wrapper__header-menu style_menu" >
+                        <div class="wrapper__header-menu-top">
+                            <ul>
+                                <li>
+                                    <a href="#">валенки </a>
+                                </li>
+                                <li>
+                                    <a href="#">boho-home</a>
+                                </li>
+                                <li>
+                                    <a href="#">авторская одежда</a>
+                                </li>
+                                <li>
+                                    <a href="#">живопись</a>
+                                </li>
+                                <li>
+                                    <a href="#">аксессуары </a>
+                                </li>
+                            </ul>
+                            <ul class="style_menu" style="display: block; margin-top: 0; margin-bottom: 0" >
+                                <ul class="multi-accordion non">
+                                    <li>
+                                        <a href="#" class="first_item" >Валенки</a>
+                                        <ul>
+                                            <li>
+                                                <a href="#ex1" >Подраздел 1</a>
+                                            </li>
+                                            <li>
+                                                <a href="#ex2" >Подраздел 2</a>
+                                            </li>
+                                            <li>
+                                                <a href="#ex3" >Подраздел 3</a>
+                                            </li>
+                                            <li>
+                                                <a href="#ex4" >Подраздел 4</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="first_item" >boho-home</a>
+                                        <ul>
+                                            <li>
+                                                <a href="#" >Подраздел 1</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" >Подраздел 2</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" >Подраздел 3</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" >Подраздел 4</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="first_item" >авторская одежда </a>
+                                        <ul>
+                                            <li>
+                                                <a href="#" >Подраздел 1</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" >Подраздел 2</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" >Подраздел 3</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" >Подраздел 4</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="index.html" class="first_item" >живопись</a>
+                                        <ul>
+                                            <li>
+                                                <a href="#" >Подраздел 1</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" >Подраздел 2</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" >Подраздел 3</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" >Подраздел 4</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="first_item" >аксесуары</a>
+                                        <ul>
+                                            <li>
+                                                <a href="#" >Подраздел 1</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" >Подраздел 2</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" >Подраздел 3</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" >Подраздел 4</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </ul>
+                        </div>
+                        <div class="wrapper__header-menu-bottom">
+                            <ul>
+                                <li>
+                                    <a href="#">магазин</a>
+                                </li>
+                                <li>
+                                    <a href="#">Журнал</a>
+                                </li>
+                                <li>
+                                    <a href="#">контакты</a>
+                                </li>
+
+                            </ul>
+                            <div class="wrapper__header-share_cart__share">
+                                <a href="#"></a>
+                                <a href="#"></a>
+                                <a href="#"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrapper__header-share_cart">
+                    <div class="wrapper__header-share_cart__share">
+                        <a href="#"></a>
+                        <a href="#"></a>
+                        <a href="#"></a>
+                    </div>
+                    <div class="wrapper__header-share_cart__cart">
+                        <a href="#cart-product" class="popup-modal">корзина</a>
+                        <a href="#cart-product" class="popup-modal"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="wrapp__content-main">
+        <div class="wrapper">
+            <div class="wrap_shop">
+                <div class="wrap_left-menu">
+                    <ul class="style_menu" style="display: block; margin-top: 0; margin-bottom: 0" >
+                        <ul class="multi-accordion non">
+                            <li>
+                                <a href="#" class="first_item" >Валенки</a>
+                                <ul>
+                                    <li>
+                                        <a href="#ex1" >Подраздел 1</a>
+                                    </li>
+                                    <li>
+                                        <a href="#ex2" >Подраздел 2</a>
+                                    </li>
+                                    <li>
+                                        <a href="#ex3" >Подраздел 3</a>
+                                    </li>
+                                    <li>
+                                        <a href="#ex4" >Подраздел 4</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="first_item" >boho-home</a>
+                                <ul>
+                                    <li>
+                                    <li>
+                                        <a href="#" >авторская одежда</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" >живопись</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" >аксесуары</a>
+                                    </li>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="first_item" >авторская одежда </a>
+                                <ul>
+                                    <li>
+                                    <li>
+                                        <a href="#" >Проектирование</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" >Монтаж</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" >Изготовление и сборка</a>
+                                    </li>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="index.html" class="first_item" >живопись</a>
+                                <ul>
+                                    <li>
+                                    <li>
+                                        <a href="#" >Проектирование</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" >Монтаж</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" >Изготовление и сборка</a>
+                                    </li>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="first_item" >аксесуары</a>
+                                <ul>
+                                    <li>
+                                    <li>
+                                        <a href="#" >Проектирование</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" >Монтаж</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" >Изготовление и сборка</a>
+                                    </li>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="wrap_shop-content clearfix">
+                <div class="wrap_unit" id="ex1">
+                    <div class="section1 clearfix">
+                        <img src="img/main-shop-img.png">
+                        <div class="section1-text">
+                            <a  class="rozdel"> Подраздел 1</a>
+                            <div class="shop-desc">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pretium nunc vitae rhoncus interdum. Vivamus non nulla fringilla, fringilla odio in, viverra arcu. Duis justo justo, pretium et lobortis ut, posuere sit amet odio. Aenean in tempus erat. Suspendisse potenti. Vestibulum condimentum non nisl quis consectetur. In venenatis vulputate justo sit amet iaculis. Nam finibus dictum dolor sed interdum.
+                                </p>
+                                <p>
+                                    Duis convallis vitae neque at sollicitudin. Etiam pellentesque tellus quis orci vulputate congue. Praesent pellentesque, nisl ut blandit cursus, ipsum urna luctus nisi, at blandit quam massa sit amet dolor. Fusce efficitur,
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section2 clearfix">
+                        <div class="wrap_products clearfix">
+                            <a href="#cart-detail" class="popup-modal product">
+                                <img src="img/product1.png">
+                                <span class="price">250,00 грн.</span>
+                                <p>Валенки “Снегири</p>
+                            </a>
+                            <a href="#" class="product">
+                                <img src="img/product1.png">
+                                <span class="price">250,00 грн.</span>
+                                <p>Валенки “Снегири</p>
+                            </a>
+                            <a href="#" class="product">
+                                <img src="img/product1.png">
+                                <span class="price">250,00 грн.</span>
+                                <p>Валенки “Снегири</p>
+                            </a>
+                            <a href="#cart-detail" class="popup-modal product">
+                                <img src="img/product1.png">
+                                <span class="price">250,00 грн.</span>
+                                <p>Валенки “Снегири</p>
+                            </a>
+                            <a href="#" class="product">
+                                <img src="img/product1.png">
+                                <span class="price">250,00 грн.</span>
+                                <p>Валенки “Снегири</p>
+                            </a>
+                            <a href="#" class="product">
+                                <img src="img/product1.png">
+                                <span class="price">250,00 грн.</span>
+                                <p>Валенки “Снегири</p>
+                            </a>
+                        </div>
+                        <a href="#" class="more_product">Загрузить еще</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>
+<footer>
+    <div class="wrapper">
+        <div class="wrapper__footer">
+            <img src="img/footer-logo.png" alt="">
+        </div>
+    </div>
+</footer>
+<div id="cart-product" class="white-popup-block mfp-hide">
+    <div class="wrap_cart-product">
+        <a class="popup-modal-dismiss"></a>
+
+        <div class="wrap_product-list">
+            <div class="product-list-caption">
+                <h4 class="title-pupup">Корзина</h4>
+                <div class="capton-block-price">Цена</div>
+                <div class="capton-block-count">Количество</div>
+                <div class="capton-block-summ">Сумма</div>
+            </div>
+            <div class="product-list">
+                <div class="wrap_op">
+                    <a href="#" class="mini-close"></a>
+                    <img src="img/product-in-cart.png">
+                    <h3>Валенки <br> “Снегири”</h3>
+                </div>
+                <p class="sum-price-product">1400,00 Р.</p>
+                <div class="wrap_counter">
+                    <div class="number-min"></div>
+                    <input readonly="1" name="item[count]" type="number" value="1">
+                    <div class="number-max"></div>
+                </div>
+                <p class="price-product">350,00 Р.</p>
+            </div>
+            <div class="product-list">
+                <div class="wrap_op">
+                    <a href="#" class="mini-close"></a>
+                    <img src="img/product-in-cart.png">
+                    <h3>Валенки <br> “Снегири”</h3>
+                </div>
+                <p class="sum-price-product">1400,00 Р.</p>
+                <div class="wrap_counter">
+                    <div class="number-min"></div>
+                    <input readonly="1" name="item[count]" type="number" value="1">
+                    <div class="number-max"></div>
+                </div>
+                <p class="price-product">350,00 Р.</p>
+            </div>
+        </div>
+        <div class="list-summ">
+            <div  class="data-cell"></div>
+            <div class="cap-itog">Итого:</div>
+            <div class="data-summ">1400,00 Р.</div>
+        </div>
+        <div class="wrap-bay-bottom clearfix">
+            <a href="#" class="next-bay">Продолжить покупки</a>
+            <button type="submit">Оформить заказ</button>
+        </div>
+    </div>
+</div>
+
+<div id="cart-detail" class="white-popup-block mfp-hide">
+    <div class="wrap_cart-detail">
+        <a class="popup-modal-dismiss"></a>
+
+        <div class="wrap_product-list-detail">
+            <div class="wrap-product-galery">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
