@@ -135,8 +135,11 @@ nav ul{
     margin: 0 auto;
 
 }
-.wrap_unit{
+.wrap_unit:first-child{
     margin-top: 40px;
+}
+.wrap_unit{
+    margin-top: 25px;
 }
 .section1-text{
     max-width: 380px;

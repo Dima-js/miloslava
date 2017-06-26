@@ -103,7 +103,7 @@ $(document).ready(function(){
             top = $(id).offset().top;
 
         //анимируем переход на расстояние - top за 1500 мс
-        $('body,html').animate({scrollTop: top - 170}, 1500);
+        $('body,html').animate({scrollTop: top - 180}, 1500);
     });
 });
 $(function () {
