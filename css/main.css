@@ -81,6 +81,106 @@ h1,h2,h3,h4,h5,h6,p,ul{
 .clearfix {
     zoom: 1; /* ie 6/7 */
 }
+/* tooltip */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    /*border-bottom: 1px dotted black; !* If you want dots under the hoverable text *!*/
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 270px;
+    background-color: #fff;
+    color: #c2c2c0;
+    font-family: Partner;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 3px;
+    top: 25px;
+    left: -213px;
+    position: absolute;
+    z-index: 1;
+    height:40px;
+    line-height: 40px;
+    -webkit-box-shadow: 0px 0px 14px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 14px -6px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 14px -6px rgba(0,0,0,0.75);
+
+}
+.tooltip:nth-child(2) .tooltiptext {
+    visibility: hidden;
+    /* visibility: hidden; */
+    width: 160px;
+    background-color: #fff;
+    color: #c2c2c0;
+    font-family: Partner;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 3px;
+    top: 25px;
+    left: -160px;
+    position: absolute;
+}
+.tooltip:nth-child(2) .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    top: -14px;
+    left: 79.5%;
+    margin-left: 19px;
+    border-width: 7px;
+    border-style: solid;
+    border-color: #ffffff transparent transparent transparent;
+    transform: rotate(180deg);
+}
+.tooltip:nth-child(2) .tooltiptext::before {
+    content: " ";
+    position: absolute;
+    top: -14px;
+    left: 79.5%;
+    margin-left: 19px;
+    border-width: 7px;
+    border-style: solid;
+    border-color: #a0a0a0 transparent transparent transparent;
+    transform: rotate(180deg);
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.tooltip .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    top: -14px;
+    left: 79.5%;
+    margin-left: -5px;
+    border-width: 7px;
+    border-style: solid;
+    border-color: #ffffff transparent transparent transparent;
+    transform: rotate(180deg);
+}
+.tooltip .tooltiptext::before {
+    content: " ";
+    position: absolute;
+    top: -14px;
+    left: 79.5%;
+    margin-left: -5px;
+    border-width: 7px;
+    border-style: solid;
+    border-color: #a0a0a0 transparent transparent transparent;
+    transform: rotate(180deg);
+}
+
+/*tooltip end*/
+
+
 .active_m{
     color: #bbd6dd!important;
 }
