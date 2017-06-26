@@ -11,6 +11,7 @@
     color: #666661;
     margin-top: 38px;
     margin-bottom: 18px;
+    opacity: 0.5;
 }
 .wrap_contacts-data{
     padding-top: 18px;
@@ -29,6 +30,14 @@
     font-size: 17px;
     color: #666661;
     margin-top: 10px;
+}
+.wrap_contacts-data a{
+    font-family: GothamProLight;
+    font-size: 17px;
+    color: #666661;
+    margin-top: 10px;
+    text-decoration: none;
+    display: block;
 }
 .wrap_contacts-data span{
     padding-top: 10px;
@@ -51,6 +60,9 @@
     .wrap_contacts-data p {
         font-size: 16px;
     }
+    .wrap_contacts-data a {
+        font-size: 16px;
+    }
 }
 @media (max-width: 425px) {
     .wrap_contacts h1 {
@@ -59,6 +71,9 @@
         margin-bottom: 10px;
     }
     .wrap_contacts-data p {
+        font-size: 14px;
+    }
+    .wrap_contacts-data a {
         font-size: 14px;
     }
     .wrap_contacts-data {
