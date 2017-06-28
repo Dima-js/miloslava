@@ -273,7 +273,7 @@ header{
 }
 
 .wrapper__header-menu-bottom{
-
+    margin-top: -15px;
 }
 .wrapper__header-menu-bottom ul{
      list-style-type: none;

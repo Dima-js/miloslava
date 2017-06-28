@@ -1394,6 +1394,9 @@ margin-top: 40px;
     opacity: 0.5;
     cursor: pointer;
 }
+.slider-for .slick-slide img{
+    height: 78.1vh;
+}
 .slick-active.slick-slide.slick-current img {
  opacity: 1 !important;
 }
