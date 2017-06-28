@@ -557,18 +557,18 @@
         <div class="wrap_data-order-form">
             <p>Для оформления заказа введите необходимые данные. Поля со звездочками обязательны для заполнения.</p>
             <div class="order-form clearfix">
-                <form action="#" method="post" name="order">
+                <form action="#" method="post" name="order" class="rf">
                     <div class="order-input-data">
-                        <input type="text" name="user_name" class="user_name" placeholder="Фамилия, имя, отчество*" required>
-                        <input type="email" name="email" class="email" placeholder="Email*" required>
+                        <input type="text" name="user_name" class="rfield " placeholder="Фамилия, имя, отчество*" >
+                        <input type="email" name="email" class="rfield " placeholder="Email*" >
                     </div>
                     <div class="order-input-data mg">
-                        <input type="text" name="number_phone" class="number_phone" placeholder="Телефон*" required>
-                        <input type="text" name="shipping_addresses" class="shipping_addresses" placeholder="Адрес доставки*" required>
+                        <input type="text"  name="number_phone" class="rfield " placeholder="Телефон*"  >
+                        <input type="text" name="shipping_addresses" class="rfield " placeholder="Адрес доставки*" >
                     </div>
                     <div class="wrap-bay-bottom clearfix">
                         <!--<a href="#" class="next-bay">Продолжить покупки</a>-->
-                        <button class="">Оформить заказ</button>
+                        <input type="submit" class="btn_submit disabled" value="Оформить заказ">
                     </div>
                 </form>
             </div>
@@ -584,7 +584,7 @@
             <p>
                 В скором времени с Вами свяжется мастер для уточнения <br> деталей оплаты, доставки и изготовления.
             </p>
-            <h3>Спасибо за доверие к нашему магазину</h3>
+            <h3>Благодарим за Ваш выбор</h3>
         </div>
     </div>
 </div>

@@ -1132,7 +1132,7 @@ margin-top: 40px;
     text-align: center;
     text-decoration: none;
 }
-.wrap-bay-bottom button{
+.wrap-bay-bottom input[type='submit']{
     color: #fffffe;
     font-family: Partner;
     font-size: 18px;
@@ -1258,7 +1258,7 @@ margin-top: 40px;
     .wrap_op {
         width: 110px;
     }
-    .wrap-bay-bottom button {
+    .wrap-bay-bottom input[type='submit'] {
         float: left;
         margin-top: 10px;
     }
@@ -1523,6 +1523,18 @@ margin-top: 40px;
     /*height: 100vh;*/
     max-height: 742px;
 }
+
+
+
+/* form */
+ input {
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+
+
 @media (max-width: 1366px) {
     .wrap_cart-detail {
         max-height: 620px!important;
@@ -1636,7 +1648,7 @@ input:required:invalid {
 
 }
 
-#cart-product-zakaz .wrap-bay-bottom button {
+#cart-product-zakaz .wrap-bay-bottom input[type='submit'] {
     margin-top: 30px;
 }
 #cart-product-zakaz .wrap-bay-bottom {
@@ -1716,7 +1728,7 @@ input:required:invalid {
 /* pupup thank */
 .wrap_thank h1{
     font-family: Partner;
-    font-weight: 700;
+    font-weight: 400;
     color: #484845;
     font-size: 28px;
     text-align: center;
@@ -1733,7 +1745,7 @@ input:required:invalid {
     color: #484845;
     font-family: Partner;
     font-size: 30px;
-    font-weight: 700;
+    font-weight: 400;
     text-align: center;
     border-top: 1px solid #f4f4f4;
     border-bottom: 1px solid #f4f4f4;
@@ -1745,9 +1757,9 @@ input:required:invalid {
     color: #cfe2e9;
     font-family: Partner;
     font-size: 30px;
-    font-weight: 700;
+    font-weight: 400;
     text-align: center;
-    width: 297px;
+    max-width: 395px;
     line-height: 36px;
     margin: 0 auto;
     /*margin-top: 25px;*/
