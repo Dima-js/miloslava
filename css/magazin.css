@@ -18,6 +18,7 @@
     margin-bottom: 30px;
     max-width: 552px;
     max-height: 360px;
+    height: 360px;
 }
 .wrap_magazin-article h3{
     color: #666661;
@@ -63,6 +64,7 @@
     background: transparent;
     transition: all 0.5s;
 }
+
 @media (max-height: 1750px) {
     .wrap_magazin-article{
         padding-left: 10px;
@@ -152,6 +154,12 @@
 
 }
 @media (max-width: 850px) {
+    .wrap-article:nth-child(3n+1) {
+        clear: none;
+    }
+    .wrap-article:nth-child(3n+3) {
+        clear: both;
+    }
     .wrap-article{
         width: 50%;
     }
