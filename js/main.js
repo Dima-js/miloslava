@@ -180,9 +180,13 @@ $(document).ready(function(){
 $(function () {
     $('.popup-modal').magnificPopup({
         type: 'inline',
-        preloader: false,
-        focus: '#username',
-        modal: true
+        closeBtnInside:true,
+        showCloseBtn: false
+        //closeOnContentClick: true
+        //preloader: false,
+        //focus: '#username',
+        //midClick: true
+        //modal: true
     });
     $(document).on('click', '.popup-modal-dismiss', function (e) {
         e.preventDefault();
