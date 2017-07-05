@@ -59,8 +59,9 @@
 }
 .wrap_magazin-article a:hover{
     border-radius: 10px;
-    border: 3px solid #cfe2e9;
-    line-height: 43px;
+    /*border: 3px solid #cfe2e9;*/
+    box-shadow: 0 0 0 3px #cfe2e9;
+    /*line-height: 43px;*/
     color: #cfe2e9;
     background: transparent;
     transition: all 0.5s;
@@ -107,9 +108,9 @@
         margin-top: 20px;
         margin-bottom: 20px;
     }
-    .wrap_magazin-article a:hover {
-        line-height: 40px;
-    }
+    /*.wrap_magazin-article a:hover {*/
+        /*line-height: 40px;*/
+    /*}*/
 }
 @media (max-width: 1220px) {
     .wrap_magazin-article h3 {
@@ -127,9 +128,9 @@
         font-size: 14px;
         line-height: 40px;
     }
-    .wrap_magazin-article a:hover {
-        line-height: 32px;
-    }
+    /*.wrap_magazin-article a:hover {*/
+        /*line-height: 32px;*/
+    /*}*/
 }
 @media (max-width: 1070px) {
     .wrap_magazin-article h3 {
@@ -149,9 +150,9 @@
         line-height: 17px;
         max-height: 37px;
     }
-    .wrap_magazin-article a:hover {
-        line-height: 28px;
-    }
+    /*.wrap_magazin-article a:hover {*/
+        /*line-height: 28px;*/
+    /*}*/
     .wrap_magazin-article h3 {
         font-size: 14px;
         line-height: 21px;
@@ -171,9 +172,9 @@
     .wrap-article:nth-child(3n+3) {
         clear: both;
     }
-    .wrap_magazin-article a:hover {
-        line-height: 32px;
-    }
+    /*.wrap_magazin-article a:hover {*/
+        /*line-height: 32px;*/
+    /*}*/
     .wrap-article{
         width: 50%;
     }
@@ -205,9 +206,9 @@
         line-height: 20px;
         max-height: 42px;
     }
-    .wrap_magazin-article a:hover {
-        line-height: 26px;
-    }
+    /*.wrap_magazin-article a:hover {*/
+        /*line-height: 26px;*/
+    /*}*/
 }
 @media (max-width: 768px) {
     .wrapp__content-main {

@@ -1514,6 +1514,21 @@ margin-top: 40px;
     margin-left: 2px;
     margin-right: 2px;
 }
+.share a:nth-child(2) img:hover{
+    background-color: #cfe2e9;
+    border-radius: 50px;
+    transition: all 0.3s;
+}
+.share a:nth-child(3) img:hover{
+    background-color: #cfe2e9;
+    border-radius: 50px;
+    transition: all 0.3s;
+}
+.share a:nth-child(4) img:hover{
+    background-color: #cfe2e9;
+    border-radius:5px;
+    transition: all 0.3s;
+}
 .slick-current{
     opacity:1;
 }
@@ -1736,68 +1751,68 @@ input:required:invalid {
     font-family: Partner;
     font-weight: 400;
     color: #484845;
-    font-size: 28px;
+    font-size: 20px;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 100px;
     line-height: 26px;
     padding-bottom: 36px;
 }
 .wrap_thank h1 span{
     color: #7baabb;
-    font-size: 45px;
+    font-size: 35px;
     padding-bottom: 24px;
 }
 .wrap_thank p{
     color: #484845;
     font-family: Partner;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 400;
     text-align: center;
     border-top: 1px solid #f4f4f4;
     border-bottom: 1px solid #f4f4f4;
-    line-height: 38px;
+    line-height: 22px;
     padding-top: 24px;
     padding-bottom: 10px;
 }
 .wrap_thank h3{
     color: #cfe2e9;
     font-family: Partner;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 400;
     text-align: center;
     max-width: 395px;
-    line-height: 36px;
+    line-height: 24px;
     margin: 0 auto;
-    /*margin-top: 25px;*/
+    /* margin-top: 25px; */
     padding-top: 38px;
-    padding-bottom: 115px;
+    padding-bottom: 71px;
 }
 .wrap_cart-detail {
        max-height: 742px;
   }
 @media(max-width: 960px){
-    .wrap_thank p {
-        color: #484845;
-        font-family: Partner;
-        font-size: 24px;
-        font-weight: 700;
-        text-align: center;
-        border-top: 1px solid #f4f4f4;
-        border-bottom: 1px solid #f4f4f4;
-        line-height: 32px;
-        padding-top: 24px;
-        padding-bottom: 10px;
-    }
-    .wrap_thank h1 {
-        font-family: Partner;
-        font-weight: 700;
-        color: #484845;
-        font-size: 24px;
-    }
-    .wrap_thank h3 {
-        font-size: 26px;
-        line-height: 30px;
-    }
+    /*.wrap_thank p {*/
+        /*color: #484845;*/
+        /*font-family: Partner;*/
+        /*font-size: 24px;*/
+        /*font-weight: 700;*/
+        /*text-align: center;*/
+        /*border-top: 1px solid #f4f4f4;*/
+        /*border-bottom: 1px solid #f4f4f4;*/
+        /*line-height: 32px;*/
+        /*padding-top: 24px;*/
+        /*padding-bottom: 10px;*/
+    /*}*/
+    /*.wrap_thank h1 {*/
+        /*font-family: Partner;*/
+        /*font-weight: 400;*/
+        /*color: #484845;*/
+        /*font-size: 24px;*/
+    /*}*/
+    /*.wrap_thank h3 {*/
+        /*font-size: 26px;*/
+        /*line-height: 30px;*/
+    /*}*/
 }
 @media (max-width: 780px) {
     .wrap_thank h3 {
@@ -1835,7 +1850,7 @@ input:required:invalid {
         line-height: 22px;
     }
     .wrap_thank h1 span {
-        font-size: 32px;
+        font-size: 26px;
     }
 }
 

@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="fb7b58b4-604d-4428-989d-354a7a660d5d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contacts.html" afterPath="$PROJECT_DIR$/contacts.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/magazin.css" afterPath="$PROJECT_DIR$/css/magazin.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/shop.css" afterPath="$PROJECT_DIR$/css/shop.css" />
     </list>
     <ignored path="MiloSlava.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,21 +40,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="contacts.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="contacts.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/contacts.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="104" column="79" selection-start-line="104" selection-start-column="79" selection-end-line="104" selection-end-column="79" />
+                <state vertical-scroll-proportion="0.5811594">
+                  <caret line="91" column="46" selection-start-line="91" selection-start-column="46" selection-end-line="91" selection-end-column="46" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="shop.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="shop.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/shop.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.6136364">
-                  <caret line="587" column="62" selection-start-line="587" selection-start-column="52" selection-end-line="587" selection-end-column="62" />
+                <state vertical-scroll-proportion="-33.0">
+                  <caret line="595" column="58" selection-start-line="595" selection-start-column="58" selection-end-line="595" selection-end-column="58" />
                   <folding>
                     <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#style#0;n#ul#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -102,11 +103,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5924242">
-                  <caret line="208" column="1" selection-start-line="208" selection-start-column="1" selection-end-line="208" selection-end-column="1" />
+                <state vertical-scroll-proportion="-4.0">
+                  <caret line="200" column="22" selection-start-line="200" selection-start-column="18" selection-end-line="200" selection-end-column="22" />
                   <folding />
                 </state>
               </provider>
@@ -122,11 +123,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="shop.css" pinned="false" current-in-tab="false">
+          <file leaf-file-name="shop.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/shop.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-3.6909091">
-                  <caret line="1157" column="1" selection-start-line="1157" selection-start-column="1" selection-end-line="1157" selection-end-column="1" />
+                <state vertical-scroll-proportion="0.66717094">
+                  <caret line="1852" column="24" selection-start-line="1852" selection-start-column="24" selection-end-line="1852" selection-end-column="24" />
                   <folding />
                 </state>
               </provider>
@@ -145,8 +146,8 @@
           <file leaf-file-name="magazin.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/magazin.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-7.981818">
-                  <caret line="591" column="22" selection-start-line="591" selection-start-column="22" selection-end-line="592" selection-end-column="5" />
+                <state vertical-scroll-proportion="-15.423077">
+                  <caret line="588" column="5" selection-start-line="588" selection-start-column="5" selection-end-line="588" selection-end-column="5" />
                   <folding />
                 </state>
               </provider>
@@ -155,7 +156,7 @@
           <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/index.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-14.076923">
+                <state vertical-scroll-proportion="0.0">
                   <caret line="83" column="27" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="27" />
                   <folding />
                 </state>
@@ -210,13 +211,13 @@
         <option value="$PROJECT_DIR$/js/slick.min.js" />
         <option value="$PROJECT_DIR$/magazin_one_news.html" />
         <option value="$PROJECT_DIR$/css/one_news.css" />
-        <option value="$PROJECT_DIR$/contacts.html" />
         <option value="$PROJECT_DIR$/css/contacts.css" />
-        <option value="$PROJECT_DIR$/css/shop.css" />
         <option value="$PROJECT_DIR$/shop.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/css/magazin.css" />
+        <option value="$PROJECT_DIR$/contacts.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/css/magazin.css" />
+        <option value="$PROJECT_DIR$/css/shop.css" />
       </list>
     </option>
   </component>
@@ -316,7 +317,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="last_opened_file_path" value="C:/OpenServer/domains/podor/www" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -371,16 +372,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="1358" y="-8" width="1936" height="1056" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14765458" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14925373" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19501625" sideWeight="0.5143923" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19480519" sideWeight="0.5165245" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19501625" sideWeight="0.48560768" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19480519" sideWeight="0.48347548" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -752,14 +753,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contacts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="104" column="79" selection-start-line="104" selection-start-column="79" selection-end-line="104" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/contacts.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -770,16 +763,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.076923">
+        <state vertical-scroll-proportion="0.0">
           <caret line="83" column="27" selection-start-line="83" selection-start-column="26" selection-end-line="83" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/shop.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.6909091">
-          <caret line="1157" column="1" selection-start-line="1157" selection-start-column="1" selection-end-line="1157" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -794,8 +779,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/shop.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6136364">
-          <caret line="587" column="62" selection-start-line="587" selection-start-column="52" selection-end-line="587" selection-end-column="62" />
+        <state vertical-scroll-proportion="-33.0">
+          <caret line="595" column="58" selection-start-line="595" selection-start-column="58" selection-end-line="595" selection-end-column="58" />
           <folding>
             <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#ul#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -806,16 +791,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/magazin.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.981818">
-          <caret line="591" column="22" selection-start-line="591" selection-start-column="22" selection-end-line="592" selection-end-column="5" />
+        <state vertical-scroll-proportion="-15.423077">
+          <caret line="588" column="5" selection-start-line="588" selection-start-column="5" selection-end-line="588" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5924242">
-          <caret line="208" column="1" selection-start-line="208" selection-start-column="1" selection-end-line="208" selection-end-column="1" />
+        <state vertical-scroll-proportion="-4.0">
+          <caret line="200" column="22" selection-start-line="200" selection-start-column="18" selection-end-line="200" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contacts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5811594">
+          <caret line="91" column="46" selection-start-line="91" selection-start-column="46" selection-end-line="91" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/shop.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.66717094">
+          <caret line="1852" column="24" selection-start-line="1852" selection-start-column="24" selection-end-line="1852" selection-end-column="24" />
           <folding />
         </state>
       </provider>

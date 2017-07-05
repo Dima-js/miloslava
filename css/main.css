@@ -190,26 +190,17 @@ h1,h2,h3,h4,h5,h6,p,ul{
 .mfp-inline-holder .mfp-content, .mfp-ajax-holder .mfp-content {
     width: auto!important;
 }
+
 @media (max-width: 1260px) {
     .mfp-inline-holder .mfp-content, .mfp-ajax-holder .mfp-content {
         width: 100%!important;
     }
 }
 @media (max-width:920px ) {
-    .wrap-bay-bottom .zakaz:hover{
-        /*line-height: 25px!important;*/
-        padding-top: 5px;
-    }
-    .wrap_desc .add-product:hover {
-        line-height: 38px!important;
-    }
-    #cart-product-zakaz .wrap-bay-bottom input[type='submit']:hover {
-        padding-top: 6px;
-    }
 }
 .wrap-bay-bottom .zakaz:hover{
     border-radius: 10px;
-    border: 3px solid #cfe2e9;
+    box-shadow: 0 0 0 3px #cfe2e9;
     color: #cfe2e9;
     background: 0 0;
     transition: all .5s;
@@ -217,7 +208,7 @@ h1,h2,h3,h4,h5,h6,p,ul{
 }
 .wrap_desc .add-product:hover   {
     border-radius: 10px;
-    border: 3px solid #cfe2e9;
+    box-shadow: 0 0 0 3px #cfe2e9;
     color: #cfe2e9;
     background: 0 0;
     transition: all .5s;
@@ -225,9 +216,9 @@ h1,h2,h3,h4,h5,h6,p,ul{
 }
 #cart-product-zakaz .wrap-bay-bottom input[type='submit']:hover {
     border-radius: 10px;
-    border: 3px solid #cfe2e9;
-    color: #cfe2e9;
+    box-shadow: 0 0 0 3px #cfe2e9;
     background: 0 0;
+    color: #cfe2e9;
     transition: all .5s;
 }
 .popup-modal-dismiss{
@@ -368,6 +359,21 @@ header{
     padding-right: 15px;
     padding-top: 8px;
     padding-left: 10px;
+}
+.wrapper__header-share_cart__share a:hover{
+    background:#bbd6df;
+    transition: all 0.3s;
+}
+.wrapper__header-share_cart__share a:hover:nth-child(3):before {
+    content: '';
+    position: absolute;
+    top: -4px;
+    left: 0;
+    background: #bbd6df url(../img/instagram.png) no-repeat;
+    height: 30px;
+    width: 30px;
+    border-radius: 7px;
+    transition: all 0.3s;
 }
 .wrapper__header-share_cart__share a:nth-child(1):before{
     content: '';
