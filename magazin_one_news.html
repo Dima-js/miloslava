@@ -8,10 +8,24 @@
     <link href="css/one_news.css" type="text/css" rel="stylesheet">
     <link href="css/index.css" type="text/css" rel="stylesheet">
     <script src="js/jquery-3.2.1.min.js"></script>
-    <!--<script src="js/main.js"></script>-->
     <script src="js/jaliswall.js"></script>
-    <!--<script src="js/main.js"></script>-->
+    <link rel="stylesheet" href="css/jquery.fancybox.css?v=2.1.7" type="text/css" media="screen" />
+    <script type="text/javascript" src="js/jquery.fancybox.pack.js?v=2.1.7"></script>
+    <link rel="stylesheet" href="css/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+    <script type="text/javascript" src="js/jquery.fancybox-buttons.js?v=1.0.5"></script>
+    <script type="text/javascript" src="js/jquery.fancybox-media.js?v=1.0.6"></script>
     <script>
+        $(document).ready(function() {
+            $(".fancybox-button").fancybox({
+                prevEffect		: 'none',
+                nextEffect		: 'none',
+                closeBtn		: true,
+                helpers		: {
+                    title	: { type : 'inside' }
+
+                }
+            });
+        });
         $(document).ready(function(){
             $('.wall-item').hover(function(event){
                 event.preventDefault();
@@ -154,33 +168,33 @@
                 </div>
                 <div class="wall clearfix">
                     <div class="wall-column">
-                        <a class="wall-item" >
+                        <a class="wall-item fancybox-button" rel="fancybox-button" href="img/one-news-g1.png" >
                             <img src="img/one-news-g1.png">
                         </a>
-                        <a class="wall-item">
+                        <a class="wall-item fancybox-button" rel="fancybox-button" href="img/one-news-g1.png" >
                             <img src="img/one-news-g1.png">
                         </a>
                     </div>
                     <div class="wall-column">
-                        <a class="wall-item">
+                        <a class="wall-item fancybox-button" rel="fancybox-button" href="img/one-news-g2.png" >
                             <img src="img/one-news-g2.png">
                         </a>
-                        <a class="wall-item" >
+                        <a class="wall-item fancybox-button" rel="fancybox-button" href="img/one-news-g1.png" >
                             <img src="img/one-news-g1.png">
                         </a>
                     </div>
                     <div class="wall-column">
-                        <a class="wall-item" >
+                        <a class="wall-item fancybox-button" rel="fancybox-button" href="img/one-news-g3.png" >
                             <img src="img/one-news-g3.png">
                         </a>
                     </div>
 
                     <div class="wall-column">
-                        <a class="wall-item" >
+                        <a class="wall-item fancybox-button" rel="fancybox-button" href="img/one-news-g4.png" >
                             <img src="img/one-news-g4.png">
                         </a>
-                        <a class="wall-item" >
-                            <img src="img/one-news-g1.png">
+                        <a class="wall-item fancybox-button" rel="fancybox-button" href="img/one-news-g4.png" >
+                            <img src="img/one-news-g4.png">
                         </a>
                     </div>
                 </div>
