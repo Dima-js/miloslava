@@ -362,11 +362,15 @@ header{
     padding-top: 8px;
     padding-left: 10px;
 }
-.wrapper__header-share_cart__share a:hover {
+.wrapper__header-share_cart__share .vkontakte:hover {
     border: 3px solid #bcd7de;
     transition: all 0.3s;
 }
-.wrapper__header-share_cart__share a:hover:nth-child(3):before {
+.wrapper__header-share_cart__share .facebook:hover {
+    border: 3px solid #bcd7de;
+    transition: all 0.3s;
+}
+.wrapper__header-share_cart__share .instagram:hover:before {
     content: '';
     position: absolute;
     top: -4px;
@@ -377,7 +381,7 @@ header{
     border-radius: 7px;
     transition: all 0.3s;
 }
-.wrapper__header-share_cart__share a:nth-child(1):before{
+.wrapper__header-share_cart__share .vkontakte:before{
     content: '';
     position: absolute;
     top: 8px;
@@ -386,7 +390,7 @@ header{
     height: 11px;
     width: 18px;
 }
-.wrapper__header-share_cart__share a:hover:nth-child(1):before{
+.wrapper__header-share_cart__share .vkontakte:hover:before{
     content: '';
     position: absolute;
     top: 8px;
@@ -396,7 +400,7 @@ header{
     width: 18px;
 }
 
-.wrapper__header-share_cart__share a:nth-child(2):before{
+.wrapper__header-share_cart__share .facebook:before{
     content: '';
     position: absolute;
     top: 5px;
@@ -405,11 +409,11 @@ header{
     height: 17px;
     width: 9px
 }
-.wrapper__header-share_cart__share a:hover:nth-child(2):before{
+.wrapper__header-share_cart__share .facebook:hover:before{
     content: '';
     background: url("../img/fs_2.png") no-repeat;
 }
-.wrapper__header-share_cart__share a:nth-child(3):before{
+.wrapper__header-share_cart__share .instagram:before{
     content: '';
     position: absolute;
     top: -4px;
@@ -418,7 +422,7 @@ header{
     height: 30px;
     width: 30px;
 }
-.wrapper__header-share_cart__share a:nth-child(3){
+.wrapper__header-share_cart__share .instagram{
     border: none;
 }
 .share a{
