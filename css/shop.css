@@ -1415,9 +1415,9 @@ margin-top: 40px;
     width: 30%;
     float: right;
 }
-.wrap-product-galery{
-    display: inline-block;
-}
+/*.wrap-product-galery{*/
+    /*display: inline-block;*/
+/*}*/
 .slider-nav .slick-list{
     height: 594px!important;
 }
@@ -1514,21 +1514,7 @@ margin-top: 40px;
     margin-left: 2px;
     margin-right: 2px;
 }
-.share a:nth-child(2) img:hover{
-    background-color: #cfe2e9;
-    border-radius: 50px;
-    transition: all 0.3s;
-}
-.share a:nth-child(3) img:hover{
-    background-color: #cfe2e9;
-    border-radius: 50px;
-    transition: all 0.3s;
-}
-.share a:nth-child(4) img:hover{
-    background-color: #cfe2e9;
-    border-radius:5px;
-    transition: all 0.3s;
-}
+
 .slick-current{
     opacity:1;
 }

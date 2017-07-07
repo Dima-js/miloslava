@@ -47,6 +47,9 @@
     font-size: 17px;
     font-weight: 400;
 }
+.wrapper-contacts {
+    margin-top: 20px;
+}
 @media (max-width: 1336px) {
     .wrap_contacts h1 {
         margin-top: 38px;
