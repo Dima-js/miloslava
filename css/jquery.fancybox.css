@@ -77,8 +77,26 @@
 	max-height: 100%;
 }
 
-#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
+#fancybox-loading
+ {
 	background-image: url(fancybox_sprite.png);
+}
+
+.fancybox-close
+ {
+	background-image: url("../img/close.png");
+	background-repeat: no-repeat;
+}
+
+.fancybox-next span {
+	background-image: url("../img/arr-galery-top.png");
+	background-repeat: no-repeat;
+	transform: rotate(90deg);
+}
+.fancybox-prev span{
+	background-image: url("../img/arr-galery-top.png");
+	background-repeat: no-repeat;
+	transform: rotate(-90deg);
 }
 
 #fancybox-loading {
@@ -101,8 +119,8 @@
 
 .fancybox-close {
 	position: absolute;
-	top: -18px;
-	right: -18px;
+	top: -10px;
+	right: -50px;
 	width: 36px;
 	height: 36px;
 	cursor: pointer;
@@ -142,12 +160,10 @@
 
 .fancybox-prev span {
 	left: 10px;
-	background-position: 0 -36px;
 }
 
 .fancybox-next span {
 	right: 10px;
-	background-position: 0 -72px;
 }
 
 .fancybox-nav:hover span {
@@ -263,7 +279,15 @@
 	   only screen and (min--moz-device-pixel-ratio: 1.5),
 	   only screen and (min-device-pixel-ratio: 1.5){
 
-	#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
+	#fancybox-loading
+	 {
+		background-image: url(fancybox_sprite@2x.png);
+		background-size: 44px 152px; /*The size of the normal image, half the size of the hi-res image*/
+	}
+	
+	.fancybox-close,
+	.fancybox-prev span,
+	.fancybox-next span {
 		background-image: url(fancybox_sprite@2x.png);
 		background-size: 44px 152px; /*The size of the normal image, half the size of the hi-res image*/
 	}
