@@ -141,6 +141,9 @@ nav ul{
 .wrap_unit{
     margin-top: 25px;
 }
+.wrap_unit:last-child .section2{
+    border-bottom: none;
+}
 .section1-text{
     max-width: 380px;
     float: right;
