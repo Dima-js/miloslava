@@ -141,7 +141,7 @@ nav ul{
 .wrap_unit{
     margin-top: 25px;
 }
-.wrap_unit:last-child .section2{
+.wrap_shop-content:last-child .wrap_unit:last-child .section2{
     border-bottom: none;
 }
 .section1-text{
